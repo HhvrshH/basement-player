@@ -488,6 +488,11 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
    function statsCheck()
    {
    section_insert()
+      section_start("", 134396899)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQlBfUE9JTlRTMSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      VAR_BP_POINTS1 = "0"
+      section_end()!
+
       section_start("", 323680333)!
       /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
       _call(function()
@@ -1008,6 +1013,11 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       _set_if_expression("W1tXQVNfRVJST1JdXQ==");
       _if(VAR_WAS_ERROR,function(){
       section_insert()
+         section_start("", 189046281)!
+         /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fbWFudWFsX2Jyb3dzZXJfY29udHJvbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         _manual_browser_control("")!
+         section_end()!
+
          section_start("", 312524355)!
          /*Dat:eyJzIjoiZmFpbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiRmFpbE1lc3NhZ2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlJlc3RhcnQiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          fail_user("Restart",false)
@@ -1816,8 +1826,8 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
          _if(VAR_WAS_ERROR,function(){
          section_insert()
             section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 857405731)!
-            /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlByb2JsZW0gd2l0aCBwcm94eS4gUnVubmluZyB3aXRob3V0IHByb3h5IDogW1tMQVNUX0VSUk9SXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-            log("Problem with proxy. Running without proxy : " + VAR_LAST_ERROR)
+            /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJMb2dUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJQcm9ibGVtIHdpdGggcHJveHkuIFJ1bm5pbmcgd2l0aG91dCBwcm94eSAgW1tQUk9YWV1dIDogW1tMQVNUX0VSUk9SXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+            log("Problem with proxy. Running without proxy  " + VAR_PROXY + " : " + VAR_LAST_ERROR)
             section_end()!
 
             section_start("", 684314642)!
@@ -2204,11 +2214,11 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
-ToolboxHeight=780
+ToolboxHeight=761
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=810
+ScenarioWidth=1081
 Zoom=100
 IsMaximized=false
 Restart=true
