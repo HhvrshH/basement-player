@@ -489,9 +489,9 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       section_end()!
 
       section_start("", 95782715)!
-      /*Dat:eyJzIjoibGVuZ3RoIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJFTEVNRU5UX0xFTkdUSCIsImlzX2RlZiI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiPkNTUz5kaXYgZGl2IGRpdiBkaXYgZGl2IGRpdiBkaXYgZGl2IiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiI+Q1NTPmRpdiBkaXYgZGl2IGRpdiBkaXYgZGl2IGRpdiBkaXYiLCJjc3MyIjoiPkNTUz4ucm91bmRlZC14bCIsImNzczMiOiIiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5jbGFzcz1cInctNiBoLTZcIj5Db2xsZWN0IGFuZCBQbGF5PCIsInhwYXRoIjoiPlhQQVRIPi4vL2Rpdi8vZGl2Ly9kaXYvL2Rpdi8vZGl2Ly9kaXYvL2Rpdi8vZGl2IiwiYXQiOiIzNzQsIDEzMDYifX0=*/
+      /*Dat:eyJzIjoibGVuZ3RoIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJFTEVNRU5UX0xFTkdUSCIsImlzX2RlZiI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiPkNTUz5kaXYgZGl2IGRpdiBkaXYgZGl2IGRpdiBkaXYgZGl2IiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiI+Q1NTPmRpdiBkaXYgZGl2IGRpdiBkaXYgZGl2IGRpdiBkaXYiLCJjc3MyIjoiPkNTUz4ucm91bmRlZC14bCIsImNzczMiOiIiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5jbGFzcz1cInctNiBoLTZcIiIsInhwYXRoIjoiPlhQQVRIPi4vL2Rpdi8vZGl2Ly9kaXYvL2Rpdi8vZGl2Ly9kaXYvL2Rpdi8vZGl2IiwiYXQiOiIzNzQsIDEzMDYifX0=*/
       /*Browser*/
-      ;_SELECTOR="\u003eMATCH\u003eclass=\u0022w-6 h-6\u0022\u003eCollect and Play\u003c";
+      ;_SELECTOR="\u003eMATCH\u003eclass=\u0022w-6 h-6\u0022";
       get_element_selector(_SELECTOR, true).length()!
       VAR_ELEMENT_LENGTH = _result()
       section_end()!
@@ -518,9 +518,9 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
          section_end()!
 
          section_start("", 317182892)!
-         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiI1IiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gYm9keSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkgPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAuc3BhY2UteS00IiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+Y2xhc3M9XCJ3LTYgaC02XCI+Q29sbGVjdCBhbmQgUGxheT5BVD5bW0NZQ0xFX0lOREVYXV0iLCJ4cGF0aCI6IiA+WFBBVEg+IC9odG1sW0BjbGFzcz1cImRhcmtcIl0vYm9keVtAY2xhc3M9XCJiZyBtaW4taC1zY3JlZW4gcmstdC1rVFJQa1wiXS9kaXZbQGNsYXNzPVwibWluLWgtc2NyZWVuXCJdL2RpdltAY2xhc3M9XCJmbGV4IGp1c3RpZnktY2VudGVyIG1pbi1oLXNjcmVlblwiXS9kaXZbQGNsYXNzPVwiZmxleCBmbGV4LWNvbCBsZzpmbGV4LXJvdyBjb250YWluZXIgdy1mdWxsIGdhcC0yNFwiXS9kaXZbQGNsYXNzPVwiaGlkZGVuIGxnOmJsb2NrIGZsZXgtbm9uZSB3LTEvNiBwbC0yXCJdL2RpdltAY2xhc3M9XCJzdGlja3kgdG9wLTVcIl0vZGl2W0BjbGFzcz1cInNwYWNlLXktNCBwYi0xMFwiXSIsImF0IjoiMTY2LCAxMDAzIiwid2UiOnRydWUsImZhIjpmYWxzZX19*/
+         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiI1IiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gYm9keSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkgPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAuc3BhY2UteS00IiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+Y2xhc3M9XCJ3LTYgaC02XCI+QVQ+W1tDWUNMRV9JTkRFWF1dIiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFtAY2xhc3M9XCJkYXJrXCJdL2JvZHlbQGNsYXNzPVwiYmcgbWluLWgtc2NyZWVuIHJrLXQta1RSUGtcIl0vZGl2W0BjbGFzcz1cIm1pbi1oLXNjcmVlblwiXS9kaXZbQGNsYXNzPVwiZmxleCBqdXN0aWZ5LWNlbnRlciBtaW4taC1zY3JlZW5cIl0vZGl2W0BjbGFzcz1cImZsZXggZmxleC1jb2wgbGc6ZmxleC1yb3cgY29udGFpbmVyIHctZnVsbCBnYXAtMjRcIl0vZGl2W0BjbGFzcz1cImhpZGRlbiBsZzpibG9jayBmbGV4LW5vbmUgdy0xLzYgcGwtMlwiXS9kaXZbQGNsYXNzPVwic3RpY2t5IHRvcC01XCJdL2RpdltAY2xhc3M9XCJzcGFjZS15LTQgcGItMTBcIl0iLCJhdCI6IjE2NiwgMTAwMyIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
          /*Browser*/
-         _SELECTOR = "\u003eMATCH\u003eclass=\u0022w-6 h-6\u0022\u003eCollect and Play\u003eAT\u003e" + VAR_CYCLE_INDEX;waiter_timeout_next(5000)
+         _SELECTOR = "\u003eMATCH\u003eclass=\u0022w-6 h-6\u0022\u003eAT\u003e" + VAR_CYCLE_INDEX;waiter_timeout_next(5000)
          waiter_nofail_next();
          wait_element_visible(_SELECTOR)!
          _call(_random_point, {})!
@@ -550,6 +550,11 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
          Y = parseInt(_result().split(",")[1])
          mouse(X,Y)!
          })!
+         section_end()!
+
+         section_start("", 858126149)!
+         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6InNsZWVwZnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXBmcm9tdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIwMDAiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9XX0=*/
+         sleep(2000)!
          section_end()!
 
          section_start("", 504500197)!
@@ -646,8 +651,8 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       CYCLES.Current().RemoveLabel("function")
       section_insert()
          section_start("", 750886235)!
-         /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly9iYXNlbWVudC5mdW4vcG9pbnRzIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-         _load("https://basement.fun/points", "", false)!
+         /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly9iYXNlbWVudC5mdW4vcHJvZmlsZT90YWI9cG9pbnRzIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+         _load("https://basement.fun/profile?tab=points", "", false)!
          section_end()!
 
       },null)!
@@ -1283,10 +1288,34 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       _set_if_expression("W1tSRUddXQ==");
       _if(typeof(VAR_REG) !== "undefined" ? (VAR_REG) : undefined,function(){
       section_insert()
-         section_start("", 52007172)!
-         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIyMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjaW5wdXQtZ3JvdXAtMSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNpbnB1dC1ncm91cC0xIiwiY3NzMiI6IiA+Q1NTPiBpbnB1dCIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGlucHV0IGNsYXNzPVwicmluZyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJpbnB1dC1ncm91cC0xXCIpIiwiYXQiOiI1MTcsIDM0MSIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
+         section_start("", 166589750)!
+         /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+         _call(function()
+         {
+         _set_action_info({ name: "Ignore Errors" });
+         _on_fail(function(){
+         VAR_LAST_ERROR = _result()
+         VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+         VAR_WAS_ERROR = false
+         _break(1,true)
+         })
+         CYCLES.Current().RemoveLabel("function")
+         section_insert()
+            section_start("", 115623851)!
+            /*Dat:eyJzIjoid2FpdGVsZW1lbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMSIsInV0aSI6IjMwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gI29uYm9hcmRpbmctbW9kYWwtYmFja2Ryb3AgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoNCkgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjb25ib2FyZGluZy1tb2RhbC1iYWNrZHJvcCA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCg0KSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSIsImNzczIiOiIgPkNTUz4gOm50aC1jaGlsZCg0MCkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDQpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpIiwiY3NzMyI6IiA+Q1NTPiAudGV4dC13aGl0ZVxcLzUwID4gLnB5LTEiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5OZWVkIGluc3BpcmF0aW9uPyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJvbmJvYXJkaW5nLW1vZGFsLWJhY2tkcm9wXCIpL2RpdltAY2xhc3M9XCJiZy1iMy1ibHVlIHctZnVsbCBoLWZ1bGwgcmVsYXRpdmUgei0xMFwiXS9kaXZbQGNsYXNzPVwibW9kYWwtY29udGVudCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMTAgdy1mdWxsIGgtZnVsbCBtYXgtbWQ6cHgtMTBcIl0vZGl2W0BjbGFzcz1cImZsZXggZmxleC1jb2wgZ2FwLTUgdy1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlclwiXS9kaXZbQGNsYXNzPVwibWluLWgtMTAgdy1mdWxsXCJdL2RpdltAY2xhc3M9XCJ0ZXh0LXdoaXRlLzUwIHRleHQtc20gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgbWF4LW1kOmdhcC0wIG1heC1tZDpmbGV4LWNvbCBtYXgtbWQ6aXRlbXMtc3RhcnQganVzdGlmeS1jZW50ZXJcIl0vc3BhbltAY2xhc3M9XCJweS0xIHB4LTMgYmctd2hpdGUvMTAgYm9yZGVyIGJvcmRlci13aGl0ZS8yMCByb3VuZGVkLWZ1bGxcIl0iLCJhdCI6IjM3NiwgNDA2In19*/
+            /*Browser*/
+            _SELECTOR = "\u003eMATCH\u003eNeed inspiration?";waiter_timeout_next(30000)
+            wait_element(_SELECTOR)!
+            section_end()!
+
+         },null)!
+         section_end()!
+
+         section_start("", 809730469)!
+         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIzIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gLm92ZXJmbG93LWhpZGRlbiA+IC50ZXh0LXdoaXRlXFwvOTAiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDIpID4gZGl2ID4gaDMiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAub3ZlcmZsb3ctaGlkZGVuID4gLnRleHQtd2hpdGVcXC85MCIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48aDMgY2xhc3M9XCJ0ZXh0LXdoaXRlLzkwIGN1cnNvci1wb2ludGVyXCIiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwib25ib2FyZGluZy1tb2RhbC1iYWNrZHJvcFwiKS9kaXZbQGNsYXNzPVwiYmctYjMtYmx1ZSB3LWZ1bGwgaC1mdWxsIHJlbGF0aXZlIHotMTBcIl0vZGl2W0BjbGFzcz1cIm1vZGFsLWNvbnRlbnQgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEwIHctZnVsbCBoLWZ1bGwgbWF4LW1kOnB4LTEwXCJdL2RpdltAY2xhc3M9XCJmbGV4IGZsZXgtY29sIGdhcC01IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXJcIl0vZGl2W0BjbGFzcz1cIm1pbi1oLTEwIHctZnVsbFwiXS9kaXZbQGNsYXNzPVwidGV4dC13aGl0ZS81MCB0ZXh0LXNtIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1heC1tZDpnYXAtMCBtYXgtbWQ6ZmxleC1jb2wgbWF4LW1kOml0ZW1zLXN0YXJ0IGp1c3RpZnktY2VudGVyXCJdL2RpdltAY2xhc3M9XCJ3LTY0IGZsZXggaXRlbXMtY2VudGVyIGdhcC0xXCJdL2RpdltAY2xhc3M9XCJvdmVyZmxvdy1oaWRkZW4gcHktMlwiXS9oM1tAY2xhc3M9XCJ0ZXh0LXdoaXRlLzkwIGN1cnNvci1wb2ludGVyXCJdIiwiYXQiOiI2MzgsIDM5MiIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
          /*Browser*/
-         _SELECTOR = " \u003eCSS\u003e #input-group-1";waiter_timeout_next(20000)
+         _SELECTOR = " \u003eCSS\u003e .overflow-hidden \u003e .text-white\u005c/90";waiter_timeout_next(3000)
+         waiter_nofail_next();
          wait_element_visible(_SELECTOR)!
          _call(_random_point, {})!
          _if(_result().length > 0, function(){
@@ -1296,32 +1325,15 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
          })!
          section_end()!
 
-         section_start("", 540077639)!
-         /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJNaW5WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTk1MCIsImNsYXNzIjoiaW50In0seyJpZCI6Ik1heFZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyMDEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiWUVBUiJ9XX0=*/
-         VAR_YEAR = Math.floor(Math.random() * (parseInt(2010) - parseInt(1950) + 1)) + parseInt(1950)
-         section_end()!
-
-         section_start("", 343685909)!
-         /*Dat:eyJzIjoiRmFrZVBlcnNvbkdlbmVyYXRvcl9HZW5lcmF0ZV9OaWNrTmFtZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoia3BvaG5waHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoidGJnd2FvdGkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjE4IiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2lieHlla3UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6InBvemRhcmNzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJzYmNxc2FocyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tZRUFSXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUkFORE9NX05JQ0tOQU1FIn1dfQ==*/
-         _call_function(FakePersonGenerator_Generate_NickName,{ "Год рождения": (VAR_YEAR),"Максимальная длина никнейма": (18),"Минимальная длина никнейма": (10),"Собственные никнеймы": (""),"Специальные символы": ("") })!
-         VAR_RANDOM_NICKNAME = _result_function()
-         section_end()!
-
-         section_start("", 5378687)!
-         /*Dat:eyJzIjoidHlwZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiVHlwZURhdGEiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUkFORE9NX05JQ0tOQU1FXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUeXBlSW50ZXJ2YWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6ImludCJ9XX0=*/
-         /*Browser*/
-         _type(VAR_RANDOM_NICKNAME,0)!
-         section_end()!
-
          section_start("", 36422989)!
-         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6InNsZWVwZnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcGZyb210byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNjAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-         sleep(6000)!
+         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6InNsZWVwZnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXBmcm9tdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwMDAiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9XX0=*/
+         sleep(3000)!
          section_end()!
 
-         section_start("", 691560623)!
-         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxNSIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjY29ubmVjdC1tb2RhbC1iYWNrZHJvcCA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgyKSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNjb25uZWN0LW1vZGFsLWJhY2tkcm9wID4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpIiwiY3NzMyI6IiA+Q1NTPiAubWF4LW1kXFwzQSBweC01IiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+PHNwYW4gY2xhc3M9XCJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMlwiPlJlZ2lzdGVyIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcImNvbm5lY3QtbW9kYWwtYmFja2Ryb3BcIikvZGl2W0BjbGFzcz1cImIzLW1hc2sgYmx1ZS1iMyBwLVsxcHhdIG1pbi13LTk2IG1pbi1oLVs0MDBweF0gcmVsYXRpdmUgei0xMCBtdC0yXCJdL2RpdltAY2xhc3M9XCJiZy1ncmFkaWVudC10by1iIGZyb20tYmxhY2svNDAgdG8tYmxhY2svMjAgYjMtbWFzayBwLTEwIHB0LTYgcGItMyBtYXgtbWQ6cHgtMiB3LWZ1bGwgaC1mdWxsXCJdL2RpdltAY2xhc3M9XCJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMTAgaC1mdWxsIHctZnVsbCBtYXgtbWQ6cHgtNSBhYnNvbHV0ZSB0b3AtMCBsZWZ0LTAgcmlnaHQtMCBib3R0b20tMFwiXSIsImF0IjoiNDUyLCAzNiIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
+         section_start("", 455736015)!
+         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIzIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gLm92ZXJmbG93LWhpZGRlbiA+IC50ZXh0LXdoaXRlXFwvOTAiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDIpID4gZGl2ID4gaDMiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAub3ZlcmZsb3ctaGlkZGVuID4gLnRleHQtd2hpdGVcXC85MCIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48aDMgY2xhc3M9XCJ0ZXh0LXdoaXRlLzkwIGN1cnNvci1wb2ludGVyXCIiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwib25ib2FyZGluZy1tb2RhbC1iYWNrZHJvcFwiKS9kaXZbQGNsYXNzPVwiYmctYjMtYmx1ZSB3LWZ1bGwgaC1mdWxsIHJlbGF0aXZlIHotMTBcIl0vZGl2W0BjbGFzcz1cIm1vZGFsLWNvbnRlbnQgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEwIHctZnVsbCBoLWZ1bGwgbWF4LW1kOnB4LTEwXCJdL2RpdltAY2xhc3M9XCJmbGV4IGZsZXgtY29sIGdhcC01IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXJcIl0vZGl2W0BjbGFzcz1cIm1pbi1oLTEwIHctZnVsbFwiXS9kaXZbQGNsYXNzPVwidGV4dC13aGl0ZS81MCB0ZXh0LXNtIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1heC1tZDpnYXAtMCBtYXgtbWQ6ZmxleC1jb2wgbWF4LW1kOml0ZW1zLXN0YXJ0IGp1c3RpZnktY2VudGVyXCJdL2RpdltAY2xhc3M9XCJ3LTY0IGZsZXggaXRlbXMtY2VudGVyIGdhcC0xXCJdL2RpdltAY2xhc3M9XCJvdmVyZmxvdy1oaWRkZW4gcHktMlwiXS9oM1tAY2xhc3M9XCJ0ZXh0LXdoaXRlLzkwIGN1cnNvci1wb2ludGVyXCJdIiwiYXQiOiI2MzgsIDM5MiIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
          /*Browser*/
-         _SELECTOR = "\u003eMATCH\u003e\u003cspan class=\u0022flex items-center justify-center gap-2\u0022\u003eRegister";waiter_timeout_next(15000)
+         _SELECTOR = " \u003eCSS\u003e .overflow-hidden \u003e .text-white\u005c/90";waiter_timeout_next(3000)
          waiter_nofail_next();
          wait_element_visible(_SELECTOR)!
          _call(_random_point, {})!
@@ -1329,6 +1341,47 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
          X = parseInt(_result().split(",")[0])
          Y = parseInt(_result().split(",")[1])
          mouse(X,Y)!
+         })!
+         section_end()!
+
+         section_start("", 682661607)!
+         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6InNsZWVwZnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcGZyb210byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNjAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+         sleep(6000)!
+         section_end()!
+
+         section_start("", 388115522)!
+         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIzIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gLmdyb3VwXFwvY2FyZCIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoNSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5ncm91cFxcL2NhcmQiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGRpdiBjbGFzcz1cImdyb3VwL2NhcmQgdy1mdWxsIHJlbGF0aXZlIG8iLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwib25ib2FyZGluZy1tb2RhbC1iYWNrZHJvcFwiKS9kaXZbQGNsYXNzPVwiYmctYjMtYmx1ZSB3LWZ1bGwgaC1mdWxsIHJlbGF0aXZlIHotMTBcIl0vZGl2W0BjbGFzcz1cIm1vZGFsLWNvbnRlbnQgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEwIHctZnVsbCBoLWZ1bGwgbWF4LW1kOnB4LTEwXCJdL2RpdltAY2xhc3M9XCJ3LWZ1bGwgbWF4LXctOTYgcm91bmRlZC14bCBvdmVyZmxvdy1oaWRkZW4gcmVsYXRpdmUgYm9yZGVyXCJdL2RpdltAY2xhc3M9XCJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBncm91cFwiXS9kaXZbQGNsYXNzPVwiYWJzb2x1dGUgaW5zZXQtMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB6LTIwIG9wYWNpdHktMCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgZWFzZS1pbi1vdXQgZ3JvdXAtaG92ZXI6b3BhY2l0eS0xMDBcIl0vZGl2W0BjbGFzcz1cImFic29sdXRlIGluc2V0LTAgdy1mdWxsIGgtZnVsbCB0b3AtMCBsZWZ0LTAgcmlnaHQtMCBib3R0b20tMCByb3VuZGVkLWxnIG92ZXJmbG93LWhpZGRlbiB6LTBcIl0vZGl2W0BjbGFzcz1cInAtMC41IGJnLXRyYW5zcGFyZW50IGFzcGVjdC1zcXVhcmUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdy1mdWxsIGgtZnVsbCByZWxhdGl2ZVwiXS9kaXZbQGNsYXNzPVwiZ3JvdXAvY2FyZCB3LWZ1bGwgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGJnLXRyYW5zcGFyZW50IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGgtZnVsbFwiXSIsImF0IjoiNDExLCA1MTUiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
+         /*Browser*/
+         _SELECTOR = " \u003eCSS\u003e .group\u005c/card";waiter_timeout_next(3000)
+         waiter_nofail_next();
+         wait_element_visible(_SELECTOR)!
+         _call(_random_point, {})!
+         _if(_result().length > 0, function(){
+         X = parseInt(_result().split(",")[0])
+         Y = parseInt(_result().split(",")[1])
+         mouse(X,Y)!
+         })!
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 563005733)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV19*/
+         _set_if_expression("MA==");
+         _if(0,function(){
+         section_insert()
+            section_start("", 157441606)!
+            /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxNSIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjY29ubmVjdC1tb2RhbC1iYWNrZHJvcCA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgyKSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNjb25uZWN0LW1vZGFsLWJhY2tkcm9wID4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpIiwiY3NzMyI6IiA+Q1NTPiAubWF4LW1kXFwzQSBweC01IiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+PHNwYW4gY2xhc3M9XCJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMlwiPlJlZ2lzdGVyIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcImNvbm5lY3QtbW9kYWwtYmFja2Ryb3BcIikvZGl2W0BjbGFzcz1cImIzLW1hc2sgYmx1ZS1iMyBwLVsxcHhdIG1pbi13LTk2IG1pbi1oLVs0MDBweF0gcmVsYXRpdmUgei0xMCBtdC0yXCJdL2RpdltAY2xhc3M9XCJiZy1ncmFkaWVudC10by1iIGZyb20tYmxhY2svNDAgdG8tYmxhY2svMjAgYjMtbWFzayBwLTEwIHB0LTYgcGItMyBtYXgtbWQ6cHgtMiB3LWZ1bGwgaC1mdWxsXCJdL2RpdltAY2xhc3M9XCJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMTAgaC1mdWxsIHctZnVsbCBtYXgtbWQ6cHgtNSBhYnNvbHV0ZSB0b3AtMCBsZWZ0LTAgcmlnaHQtMCBib3R0b20tMFwiXSIsImF0IjoiNDUyLCAzNiIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
+            /*Browser*/
+            _SELECTOR = "\u003eMATCH\u003e\u003cspan class=\u0022flex items-center justify-center gap-2\u0022\u003eRegister";waiter_timeout_next(15000)
+            waiter_nofail_next();
+            wait_element_visible(_SELECTOR)!
+            _call(_random_point, {})!
+            _if(_result().length > 0, function(){
+            X = parseInt(_result().split(",")[0])
+            Y = parseInt(_result().split(",")[1])
+            mouse(X,Y)!
+            })!
+            section_end()!
+
          })!
          section_end()!
 
@@ -2620,7 +2673,7 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
      <ConnectionPassword></ConnectionPassword>
      <ScriptName>ScriptName</ScriptName>
      <ProtectionStrength>4</ProtectionStrength>
-     <UnusedModules>PhoneVerification;InMail;ClickCaptcha;URL</UnusedModules>
+     <UnusedModules>InMail;URL;ClickCaptcha;PhoneVerification</UnusedModules>
      <ScriptIcon>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</ScriptIcon>
      <IsCustomIcon>false</IsCustomIcon>
      <HideBrowsers>false</HideBrowsers>
@@ -2632,7 +2685,7 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
      <CompileType>NoProtection</CompileType>
      <ScriptVersion>1.0.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>28.1.2</EngineVersion>
+     <EngineVersion>28.3.0</EngineVersion>
      <SettingsWorker>EnableWidevine=true
 EnableSafeBrowsing=true
 EnableVariations=true
@@ -2640,12 +2693,9 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
-ToolboxHeight=761
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=1081
-Zoom=100
 IsMaximized=false
 Restart=true
 UseHumanLikeMouseMoves=true
@@ -2671,7 +2721,7 @@ Detector=false
      <ChromeCommandLine>--disk-cache-size=1
 --disable-gpu-program-cache
 --disable-gpu-shader-disk-cache
---disable-features=GpuProcessHighPriorityWin,GpuUseDisplayThreadPriority,CookieDeprecationFacilitatedTesting
+--disable-features=GpuProcessHighPriorityWin,GpuUseDisplayThreadPriority,CookieDeprecationFacilitatedTesting,OptimizationGuideModelDownloading
 --lang=en
 --disable-auto-reload</ChromeCommandLine>
      <ModulesMetaJson>{
@@ -2688,15 +2738,15 @@ Detector=false
 }
 </ModulesMetaJson>
      <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;ALL_MATCH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AVATAR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AVATARID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BP_POINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BP_POINTS1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CREDENTIALS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURRENT_URL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATE_NOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DONELIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ETH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FOREACH_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FROM&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IS_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIST_CONTAINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIST_WITH_GROUPS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIST_WITH_ITEMS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEEDPASS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NONE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PATHKEY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PKEY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_NICKNAME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_NUMBER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;REF&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;REG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STRING_CONTAINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TAB_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMEOUT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TOO&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TOTAL_TABS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;URL_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAITING_RESULTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;YEAR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:DATE_NOW&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;DONELIST\&quot;]&quot;:false,&quot;[\&quot;PROXIES\&quot;]&quot;:false,&quot;[\&quot;TOKENS_DATA\&quot;,\&quot;arbitrum\&quot;]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,0]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,1]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,2]&quot;:false,&quot;[\&quot;CREDENTIALS\&quot;]&quot;:false,&quot;[\&quot;WAITING_RESULTS\&quot;]&quot;:false,&quot;[\&quot;WS\&quot;]&quot;:false,&quot;[\&quot;WS\&quot;,0]&quot;:true,&quot;[\&quot;WS\&quot;,1]&quot;:true,&quot;[\&quot;WS\&quot;,2]&quot;:true,&quot;[\&quot;WS\&quot;,3]&quot;:true,&quot;[\&quot;WS\&quot;,4]&quot;:true,&quot;[\&quot;WS\&quot;,5]&quot;:true,&quot;[\&quot;WS\&quot;,6]&quot;:true,&quot;[\&quot;WS\&quot;,7]&quot;:true,&quot;[\&quot;WS\&quot;,8]&quot;:true,&quot;[\&quot;WS\&quot;,9]&quot;:true,&quot;[\&quot;WS\&quot;,10]&quot;:true,&quot;[\&quot;WS\&quot;,11]&quot;:true,&quot;[\&quot;WS\&quot;,12]&quot;:true,&quot;[\&quot;WS\&quot;,13]&quot;:true,&quot;[\&quot;LIST_WITH_GROUPS\&quot;]&quot;:false,&quot;[\&quot;INVITES\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;Sleep&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;credentials&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;donelist&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;fpKey&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;mode&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;openGamer&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;retries&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;shuffle&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;sleepongame&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;threads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;tryFindGame&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;useFingerSwitcher&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;wallet\&quot;]&quot;:false,&quot;[\&quot;seed\&quot;]&quot;:false,&quot;[\&quot;sleepAkk\&quot;]&quot;:false,&quot;[\&quot;randlist\&quot;]&quot;:false,&quot;[\&quot;radlist\&quot;]&quot;:false,&quot;[\&quot;tokensList\&quot;]&quot;:false,&quot;[\&quot;Proxy\&quot;]&quot;:false,&quot;[\&quot;private\&quot;]&quot;:false,&quot;[\&quot;randlist1\&quot;]&quot;:false,&quot;[\&quot;reviews_list\&quot;]&quot;:false,&quot;[\&quot;credentials\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -2709,8 +2759,8 @@ Detector=false
      <ModelList>
           <Model>
                <Name>useFingerSwitcher</Name>
-               <Description en="Use Finger Switcher" ru="Use Finger Switcher"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Use Finger Switcher" en="Use Finger Switcher"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
                <Hint en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
@@ -2728,8 +2778,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>fpKey</Name>
-               <Description en="Finger Print Key" ru="Finger Print Key"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Finger Print Key" en="Finger Print Key"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
                <Hint en=""/>
                <VisibilityConditionValue>Yes</VisibilityConditionValue>
@@ -2747,8 +2797,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>threads</Name>
-               <Description en="Threads" ru="Threads"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Threads" en="Threads"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
                <Hint en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
@@ -2765,10 +2815,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>mode</Name>
-               <Description en="Mode" ru="Mode"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Mode" en="Mode"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -2783,10 +2833,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>sleepongame</Name>
-               <Description en="Sleep On Game" ru="Sleep On Game"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Sleep On Game" en="Sleep On Game"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint en="Соколько висеть на странице игры" ru="Соколько висеть на странице игры"/>
+               <Hint ru="Соколько висеть на странице игры" en="Соколько висеть на странице игры"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -2801,8 +2851,8 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>Sleep</Name>
-               <Description en="Sleep" ru="Sleep"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Sleep" en="Sleep"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
                <Hint en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
@@ -2820,10 +2870,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>retries</Name>
-               <Description en="Retries" ru="Retries"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Retries" en="Retries"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -2838,10 +2888,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>donelist</Name>
-               <Description en="Clear DoneList" ru="Clear DoneList"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Clear DoneList" en="Clear DoneList"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint en="После успешного прохождення приватник запишется в doneList.txt чтобы при повторном запуске скрипт не пытался в него заходить. Если вы хотите попытаться то с помощю этой кнопки может очистить этот файл преред запуском" ru="После успешного прохождення приватник запишется в doneList.txt чтобы при повторном запуске скрипт не пытался в него заходить. Если вы хотите попытаться то с помощю этой кнопки может очистить этот файл преред запуском"/>
+               <Hint ru="После успешного прохождення приватник запишется в doneList.txt чтобы при повторном запуске скрипт не пытался в него заходить. Если вы хотите попытаться то с помощю этой кнопки может очистить этот файл преред запуском" en="После успешного прохождення приватник запишется в doneList.txt чтобы при повторном запуске скрипт не пытался в него заходить. Если вы хотите попытаться то с помощю этой кнопки может очистить этот файл преред запуском"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -2857,10 +2907,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>shuffle</Name>
-               <Description en="Wallets shuffle" ru="Wallets shuffle"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Wallets shuffle" en="Wallets shuffle"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -2876,10 +2926,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>tryFindGame</Name>
-               <Description en="Try Find Game" ru="Try Find Game"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Try Find Game" en="Try Find Game"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint en="Пробовать ли найти не заминченые игры даже если аккаунт уже создан" ru="Пробовать ли найти не заминченые игры даже если аккаунт уже создан"/>
+               <Hint ru="Пробовать ли найти не заминченые игры даже если аккаунт уже создан" en="Пробовать ли найти не заминченые игры даже если аккаунт уже создан"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Checkbox</Type>
@@ -2892,10 +2942,10 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>openGamer</Name>
-               <Description en="Only Checker run" ru="Only Checker run"/>
-               <SectionName en="Script Setup" ru="Script Setup"/>
+               <Description ru="Only Checker run" en="Only Checker run"/>
+               <SectionName ru="Script Setup" en="Script Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint en="" ru=""/>
+               <Hint ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Checkbox</Type>
